@@ -32,7 +32,7 @@ void Player::takeDamage(int damage)
     health -= damage;
 }
 
-void Player::attack(Player player)
+void Player::attack(Player &player)
 {
     energy -= 10;
     player.takeDamage(10);
