@@ -20,7 +20,7 @@ public:
     void setName(std::string newName);
 
     //Attack method
-    void attack(Player player);
+    void attack(Player &player);
 
     void collectHealth();
     void collectEnergy();
